@@ -511,12 +511,12 @@ body.dark-theme {
 /*=============== QUALIFICATION ===============*/
 .qualification{
   position: relative;
-  justify-content: center;
+  
 }
 
 .qualification__container{
   row-gap: 2.5rem;
-  justify-content: center;
+  
 }
 
 .qualification__title{
@@ -1376,7 +1376,7 @@ body.dark-theme {
 
   .qualification__container{
     column-gap: 14rem;
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(4, max-content);
   }
   .qualification__title{
     margin-bottom: 3rem;
