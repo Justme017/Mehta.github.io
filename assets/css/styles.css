@@ -414,7 +414,7 @@ body.dark-theme {
   transition: .4s;
 }
 
-.button:hover{
+.button: hover{
   background-color: var(--first-color-alt);
   color: var(--body-color);
 }
@@ -515,6 +515,7 @@ body.dark-theme {
 
 .qualification__container{
   row-gap: 3.5rem;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .qualification__title{
@@ -534,7 +535,7 @@ body.dark-theme {
 
 .qualification__info{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  
   row-gap: 2rem;
 }
 
