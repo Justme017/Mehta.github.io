@@ -515,6 +515,7 @@ body.dark-theme {
 
 .qualification__container{
   row-gap: 3.5rem;
+  justify-content: center;
 }
 
 .qualification__title{
