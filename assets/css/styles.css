@@ -1376,8 +1376,8 @@ body.dark-theme {
   }
 
   .qualification__container{
-    column-gap: 5rem;
-    grid-template-columns: repeat(3, max-content);
+    column-gap: 14rem;
+    grid-template-columns: repeat(3, 1fr);
   }
   .qualification__title{
     margin-bottom: 3rem;
