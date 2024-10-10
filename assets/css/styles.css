@@ -515,7 +515,6 @@ body.dark-theme {
 
 .qualification__container{
   row-gap: 3.5rem;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .qualification__title{
@@ -534,8 +533,7 @@ body.dark-theme {
 }
 
 .qualification__info{
-  display: grid;
-  
+  display: grid; 
   row-gap: 2rem;
 }
 
@@ -1376,6 +1374,7 @@ body.dark-theme {
 
   .qualification__container{
     column-gap: 14rem;
+    grid-template-columns: repeat(3, 1fr);
   }
   .qualification__title{
     margin-bottom: 3rem;
