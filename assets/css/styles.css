@@ -510,13 +510,12 @@ body.dark-theme {
 
 /*=============== QUALIFICATION ===============*/
 .qualification{
-  position: center;
+  position: relative;
   
 }
 
 .qualification__container{
   row-gap: 2.5rem;
-  justify-content: center;
 }
 
 .qualification__title{
@@ -537,6 +536,7 @@ body.dark-theme {
 .qualification__info{
   display: grid; 
   row-gap: 2rem;
+  justify-content: center;
 }
 
 .qualification__name{
@@ -1375,8 +1375,8 @@ body.dark-theme {
   }
 
   .qualification__container{
-    column-gap: 14rem;
-    grid-template-columns: repeat(4, max-content);
+    column-gap: 9.5rem;
+    grid-template-columns: repeat(3, max-content);
   }
   .qualification__title{
     margin-bottom: 3rem;
