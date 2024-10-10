@@ -511,10 +511,11 @@ body.dark-theme {
 /*=============== QUALIFICATION ===============*/
 .qualification{
   position: relative;
+  justify-content: center;
 }
 
 .qualification__container{
-  row-gap: 3.5rem;
+  row-gap: 2.5rem;
   justify-content: center;
 }
 
