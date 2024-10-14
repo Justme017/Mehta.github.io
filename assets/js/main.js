@@ -221,7 +221,7 @@ sr.reveal(`.qualification__content, .articles__card`, {interval: 100})
 
 /*=============== TYPOGRAPHY ANIMATION ===============*/
 var typed = new Typed('.typing',{
-    strings:["Mechanical Engineer","CAD Designer","Drone Enthusiast","Graphic Designer","Freelancer"],
+    strings:["Mechanical Engineer","CAD Designer","Drone Enthusiast","Robotics Designer"],
     typeSpeed:90,
     BackSpeed:60,
     loop:true
