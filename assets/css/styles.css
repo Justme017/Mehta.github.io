@@ -298,6 +298,8 @@ body.dark-theme {
 .home__container{
   row-gap: 4rem;
   padding-top: 2rem;
+  width: auto;
+
 }
 
 .home__data{
@@ -305,7 +307,7 @@ body.dark-theme {
 }
 
 .home__title{
-  text-align:center;
+  text-align: center;
   font-size: var(--biggest-font-size);
   letter-spacing: .3px;
   margin-bottom: .5rem;
