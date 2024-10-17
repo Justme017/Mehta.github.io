@@ -1142,7 +1142,7 @@ body.dark-theme {
   }
 
    .home__title{
-    width: 400px;
+    width: auto;
   }
 
   .skills__info{
@@ -1187,7 +1187,8 @@ body.dark-theme {
 
 @media screen and (min-width: 767px){
   .home__container{
-    grid-template-columns: 1fr 2fr 1fr;
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: repeat(3, max-content);
   }
   .home__data{
     order: 2;
@@ -1213,6 +1214,10 @@ body.dark-theme {
   .skills__container,
   .articles__container{
     column-gap: 5rem;
+  }
+
+  .skills__info{
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .qualification__container{
