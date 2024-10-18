@@ -1187,8 +1187,7 @@ body.dark-theme {
 
 @media screen and (min-width: 767px){
   .home__container{
-    /*grid-template-columns: 1fr 2fr 1fr;*/
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: 1fr 2fr 1fr;
   }
   .home__data{
     order: 2;
