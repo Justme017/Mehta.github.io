@@ -311,8 +311,6 @@ body.dark-theme {
   margin-bottom: .5rem;
   white-space: nowrap;
   width: 400px
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .home__blob{
@@ -1187,17 +1185,17 @@ body.dark-theme {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px){
   
   .home__container{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
   }
   .home__data{
     order: 2;
   }
   .home__info:nth-child(3){
     order: 3;
-    /*text-align: right;*/
+    text-align: right;
   }
   .home__info{
     margin-top: 10rem;
