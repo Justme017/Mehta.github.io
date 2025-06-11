@@ -53,7 +53,5 @@ To run this website locally or contribute to its development:
 ## Contact
 Feel free to reach out for collaboration or inquiries:
 - **GitHub**: [justme017](https://github.com/justme017)
-- **Email**: [Your email address]
-- **LinkedIn**: [Your LinkedIn profile] (optional)
 
 Thank you for visiting my portfolio!
